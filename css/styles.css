@@ -696,6 +696,7 @@ img {
 
 .projects-top-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .projects-top-text {
@@ -708,11 +709,18 @@ img {
   height: 100%;
   padding: 63px 24px;
   transform: translateY(100%);
+  transition: transform 250ms;
 }
 
-.projects-item .projects-top-text:hover {
+/* .projects-item:hover .projects-top-text {
+  transform: translateY(0);
+} */
+
+.projects-link:hover .projects-top-text,
+.projects-link:focus .projects-top-text {
   transform: translateY(0);
 }
+
 .projects-title {
   margin-bottom: 4px;
   font-weight: 700;
