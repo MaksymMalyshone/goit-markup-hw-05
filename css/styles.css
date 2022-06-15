@@ -576,6 +576,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
+
   top: 0;
   transition: opacity 250ms, visibility 250ms;
 }
@@ -620,12 +621,10 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+.no-scroll {
   overflow: hidden;
 }
-
-/* .no-scroll {
-  ;
-} */
 
 /* -------------------------------------------------------------- */
 
