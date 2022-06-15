@@ -620,7 +620,12 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  overflow: hidden;
 }
+
+/* .no-scroll {
+  ;
+} */
 
 /* -------------------------------------------------------------- */
 
